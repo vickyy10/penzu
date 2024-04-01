@@ -1,0 +1,100 @@
+
+.head-txt{
+    color: #2E3033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"__Merriweather_f68def","__Merriweather_Fallback_f68def",Tofu,serif; 
+    font-size:48px;
+    font-weight: 700;
+    text-decoration: none solid rgb(46, 48, 51);
+}
+.p-text{
+  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* slide button */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 360px;
+    background-color: #CBD5E1;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    bottom: -5px;
+    background-color:#2563EB;
+    border-radius: 360px;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+
+
+/* ____________________ */
+
+.card{
+    width: 350px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    border: 0px;
+    box-shadow: 0px 0px 10px 5px rgb(218, 218, 218);
+   
+}
+
+.card-head-txt{
+    font-weight: bold;
+    font-size: 48px;
+    font-family:"__Merriweather_f68def","__Merriweather_Fallback_f68def",Tofu,serif; 
+
+
+}
+.card-text{
+    font-size: medium;
+    color: rgb(89 105 128 );
+   
+}
+.btn{
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: large;
+}
+
